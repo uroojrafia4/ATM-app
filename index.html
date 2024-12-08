@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC ATM Service</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<div class="login-box" id="atm-screen">
+  <p>Welcome to ABC ATM Service!</p>
+  <form>
+    <div class="user-box">
+      <input required="" name="" type="text" id="cardNumber"  maxlength="6">
+      <label>Card Number</label>
+    </div>
+    <div class="user-box">
+      <input required="" name="" type="text" id="amount"  min="1">
+      <label>Amount to be withdrawn</label>
+    </div>
+    <div class="user-box">
+        <input required="" name="" type="text" id="pin" maxlength="4">
+        <label>Enter PIN</label>
+      </div>
+    <a id="withdraw-btn" href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Withdraw
+    </a>
+  </form>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./app.js"></script>
+
+</body>
+</html>
