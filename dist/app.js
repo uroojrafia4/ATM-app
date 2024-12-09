@@ -1,3 +1,4 @@
+"use strict";
 // Array of users
 var users = [
     { card: 123456, name: 'urooj', piN: 1234, amnt: 4000 },

@@ -1,0 +1,13 @@
+
+{
+  "compilerOptions": {
+    "module": "ESNext",  // Use ES Modules
+    "target": "ES5",
+    "allowSyntheticDefaultImports": true,     // Or ES6, depending on the browsers you support
+    "moduleResolution": "node",  // Resolves imports from node_modules
+    "esModuleInterop": true,  // Helps with compatibility
+    "lib": ["es2015", "dom"],  
+    "outDir": "./dist",         // Output folder for compiled JS
+    "strict": true              // Enable strict type checking
+  }
+}
